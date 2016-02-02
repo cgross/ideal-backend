@@ -10,4 +10,7 @@
   - appreciating security
   - sent from audit trail so message can include new, old, and diff of updates
 - webhooks?
+- Some endpoints will need to transform/filter an entity before sending it back (for security purposes)
+- Similarly some endpoints will need to accept a tranformed/filtered entity for PUTs
+- PATCH for atomic modifications
 
